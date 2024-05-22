@@ -1,6 +1,6 @@
 {
   "name": "assertionlogic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Assertion Logic",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/zTgx/AssertionLogic/issues"
   },
-  "homepage": "https://github.com/zTgx/AssertionLogic#readme",
+  "homepage": "https://github.com/zTgx/AssertionLogic/blob/main/README-NPM.md",
   "dependencies": {
     "solc": "^0.8.0"
   }

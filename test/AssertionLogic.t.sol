@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import {Test, console} from "forge-std/Test.sol";
 import "../src/AssertionLogic.sol";
-import "../src/Helpers.sol";
+import "./Helpers.sol";
 
 contract TestAssertionLogic is Test {
     using AssertionLogic for AssertionLogic.CompositeCondition;
