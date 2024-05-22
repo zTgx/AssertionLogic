@@ -27,7 +27,7 @@ library AssertionLogic {
     }
 
     function andOp(CompositeCondition storage cc, string memory src, Operator op, string memory dst)
-        internal
+        public
         returns (CompositeCondition storage)
     {
         addCondition(cc, src, op, dst);
@@ -36,7 +36,7 @@ library AssertionLogic {
     }
 
     function orOp(CompositeCondition storage cc, string memory src, Operator op, string memory dst)
-        internal
+        public
         returns (CompositeCondition storage)
     {
         addCondition(cc, src, op, dst);
