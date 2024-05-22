@@ -1,0 +1,27 @@
+{
+  "name": "assertionlogic",
+  "version": "1.0.0",
+  "description": "Assertion Logic",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zTgx/AssertionLogic.git"
+  },
+  "author": "zTgx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zTgx/AssertionLogic/issues"
+  },
+  "homepage": "https://github.com/zTgx/AssertionLogic#readme",
+  "dependencies": {
+    "solc": "^0.8.0"
+  }
+}
