@@ -13,6 +13,9 @@ docs/
 # Dotenv file
 .env
 
+# lib
+libs
+
 # npm
 node_modules
 artifacts
